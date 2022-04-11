@@ -98,7 +98,7 @@ export default function HomeScreen({ navigation }) {
           <Text style={{ color: "blue", fontSize: 15 }}>Log Out</Text>
         </TouchableOpacity>
       </View>
-      <View style={{ flexDirection: "row", justifyContent: "center" }}>
+      <View style={{ flexDirection: "row", justifyContent: "space-evenly" }}>
         <Button title="store" onPress={storeFriends} />
         <Button title="delete" onPress={deleteFriends} />
       </View>

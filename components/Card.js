@@ -21,16 +21,14 @@ export default function Card(props) {
             uri: image,
           }}
         />
-        <View style={{ padding: 5 }}>
+        <View style={{ paddingHorizontal: 5, paddingVertical: 3 }}>
           <Text
             style={[styles.cardTextStyle, { fontSize: 18, fontWeight: "bold" }]}
           >
             {firstName} {lastName}
           </Text>
           <Text style={styles.cardTextStyle}>{email}</Text>
-          <Text style={[styles.cardTextStyle, { marginBottom: 0 }]}>
-            {phoneNum}
-          </Text>
+          <Text style={styles.cardTextStyle}>{phoneNum}</Text>
         </View>
       </TouchableOpacity>
       <TouchableOpacity onPress={onPressDelete} style={styles.cardDeleteStyle}>

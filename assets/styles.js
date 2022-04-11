@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
   cardTextStyle: {
     color: "#20B2AA",
     fontSize: 14,
-    marginBottom: 2,
   },
   cardDeleteStyle: {
     width: 60,
