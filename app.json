@@ -3,6 +3,7 @@
     "name": "lifelinelab-test",
     "slug": "lifelinelab-test",
     "version": "1.0.0",
+    "owner": "liang0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,19 +14,19 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.liang0.lifelinelabtest"
+      "bundleIdentifier": "com.liang0.lifelinelabtest",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.liang0.lifelinelabtest"
+      "package": "com.liang0.lifelinelabtest",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
